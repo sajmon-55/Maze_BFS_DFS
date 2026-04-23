@@ -1,14 +1,13 @@
-# Maze Solver (BFS & DFS) 🧩
+# Maze BFS and DFS
 
-Projekt stworzony w celu zrozumienia i implementacji algorytmów przeszukiwania grafów. Program znajduje Start i Koniec oraz 4 punkty które musi odchaczyć
+This repository contains implementations of Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms to traverse mazes.
 
-### Algorytmy:
-- **BFS (Breadth-First Search):** Przeszukiwanie wszerz – gwarantuje znalezienie najkrótszej ścieżki.
-- **DFS (Depth-First Search):** Przeszukiwanie w głąb – eksploruje ścieżki do końca przed cofnięciem się.
+## Czym jest BFS i DFS?
 
-### Technologie:
-- Java
-- Algorytmika i Struktury Danych (Grafy, Kolejki, Stosy)
+BFS (Breadth-First Search) i DFS (Depth-First Search) to popularne algorytmy wyszukiwania, które są używane do przeszukiwania struktur danych, takich jak grafy i drzewa. W kontekście labiryntów, algorytmy te mogą być używane do znajdowania ścieżek lub rozwiązywania labiryntów.
 
-### Jak to działa:
-Labirynt jest reprezentowany jako macierz. Algorytm startuje w punkcie S i szuka drogi do punktu K, omijając ściany.
+## Description
+The BFS algorithm explores all neighboring nodes at the present depth before moving on to nodes at the next depth level, while the DFS algorithm explores as far as possible down one branch before backing up.
+
+## Implementations
+Algorithms are implemented in Python and can be used to find exit paths in given mazes. Each implementation is well-commented to help understand the logic behind it.
