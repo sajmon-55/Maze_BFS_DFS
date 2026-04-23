@@ -1,13 +1,31 @@
-# Maze BFS and DFS
+# Maze Solver (BFS & DFS) 🧩
 
-This repository contains implementations of Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms to traverse mazes.
+A project created to understand and implement graph search algorithms. The program finds the Start and End points and 4 checkpoints that must be visited.
 
-## Czym jest BFS i DFS?
+### Algorithms:
+- **BFS (Breadth-First Search):** Breadth-first search – guarantees finding the shortest path.
+- **DFS (Depth-First Search):** Depth-first search – explores paths to the end before backtracking.
 
-BFS (Breadth-First Search) i DFS (Depth-First Search) to popularne algorytmy wyszukiwania, które są używane do przeszukiwania struktur danych, takich jak grafy i drzewa. W kontekście labiryntów, algorytmy te mogą być używane do znajdowania ścieżek lub rozwiązywania labiryntów.
+### Technologies:
+- Java
+- Algorithms and Data Structures (Graphs, Queues, Stacks)
 
-## Description
-The BFS algorithm explores all neighboring nodes at the present depth before moving on to nodes at the next depth level, while the DFS algorithm explores as far as possible down one branch before backing up.
+### How it works:
+The maze is represented as a matrix. The algorithm starts at point S and searches for a path to point K, avoiding walls.
 
-## Implementations
-Algorithms are implemented in Python and can be used to find exit paths in given mazes. Each implementation is well-commented to help understand the logic behind it.
+---
+
+# Maze Solver (BFS & DFS) 🧩
+
+Projekt stworzony w celu zrozumienia i implementacji algorytmów przeszukiwania grafów. Program znajduje Start i Koniec oraz 4 punkty które musi odchaczyć
+
+### Algorytmy:
+- **BFS (Breadth-First Search):** Przeszukiwanie wszerz – gwarantuje znalezienie najkrótszej ścieżki.
+- **DFS (Depth-First Search):** Przeszukiwanie w głąb – eksploruje ścieżki do końca przed cofnięciem się.
+
+### Technologie:
+- Java
+- Algorytmika i Struktury Danych (Grafy, Kolejki, Stosy)
+
+### Jak to działa:
+Labirynt jest reprezentowany jako macierz. Algorytm startuje w punkcie S i szuka drogi do punktu K, omijając ściany.
